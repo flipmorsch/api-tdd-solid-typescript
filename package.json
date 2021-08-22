@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/index.ts",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "prepare": "husky install",
     "lint:staged": "lint-staged"
   },
