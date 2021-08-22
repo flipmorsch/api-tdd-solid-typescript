@@ -5,7 +5,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install",
+    "lint:staged": "lint-staged"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +24,7 @@
     "eslint-plugin-import": "^2.24.1",
     "eslint-plugin-prettier": "^3.4.1",
     "git-commit-msg-linter": "^3.2.8",
-    "husky": "^7.0.1",
+    "husky": "^7.0.0",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
